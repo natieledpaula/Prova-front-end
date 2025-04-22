@@ -97,3 +97,24 @@ section {
     flex-grow: 1;
     margin-left: 10px;
 }
+
+/* Parte de botões de concluir tarefas e gastos */
+.concluida {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.botoes-acao {
+    display: flex;
+    gap: 5px;
+}
+
+.botao-concluir, .botao-remover {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
