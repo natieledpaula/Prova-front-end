@@ -118,3 +118,21 @@ section {
     border-radius: 4px;
     transition: background-color 0.3s ease;
 }
+
+.botao-concluir {
+    color: green;
+    background-color: #e6ffe6;
+}
+
+.botao-concluir:hover {
+    background-color: #ccffcc;
+}
+
+.botao-remover {
+    color: red;
+    background-color: #ffe6e6;
+}
+
+.botao-remover:hover {
+    background-color: #ffcccc;
+}
