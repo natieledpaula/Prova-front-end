@@ -1,3 +1,5 @@
+Nome: Natiele Nogueira de Paula RA: 24408827-2
+
 # Lista de Tarefas
 
 Este é um simples aplicativo de lista de tarefas que permite aos usuários criar, gerenciar e acompanhar suas tarefas.
