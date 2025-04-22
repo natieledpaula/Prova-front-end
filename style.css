@@ -136,3 +136,17 @@ section {
 .botao-remover:hover {
     background-color: #ffcccc;
 }
+
+/* Parte do total de gastos */
+.total-gastos {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    text-align: right;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.total-gastos strong {
+    font-weight: bold;
+}
