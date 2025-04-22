@@ -41,11 +41,27 @@ section {
 }
 
 .input-area #novatarefa,
-.input-area #descricaogasto {
+.input-area #valorgasto {
     flex-grow: 1;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px 0 0 4px;
     font-size: 16px;
     margin-right: 5px;
+}
+
+.input-area #valorgasto {
+    max-width: 120px;
+}
+
+/* Parte de estilização do botão adicionar */
+.input-area button {
+    background-color: #030303;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
