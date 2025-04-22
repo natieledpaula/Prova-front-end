@@ -20,6 +20,21 @@
                 <ul id="listaDeTarefas">
                     </ul>
             </section>
+            <!-- Parte dos gastos -->
+            <section id="gastos">
+                <h2>Gastos</h2>
+                <div class="input-area">
+                    <input type="text" id="descricaoGasto" placeholder="Descrição do gasto">
+                    <input type="number" id="valorGasto" placeholder="Valor (R$)">
+                    <button onclick="adicionarGasto()">Registrar Gasto</button>
+                </div>
+                <ul id="listaDeGastos">
+                    </ul>
+                    <!-- Parte de total de gastos -->
+                <div class="total-gastos">
+                    <strong>Total Gasto:</strong> <span id="totalGasto">R$ 0.00</span>
+                </div>
+            </section>
         </div>
     </header>
 
