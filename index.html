@@ -8,29 +8,18 @@
 </head>
 <body>
     <header>
-        <h1>Lista de Tarefas</h1>
-        <div class="aliment">
-            <h2>Alimentações</h2>
-            <label>
-                <input type="checkbox">
-                Pizza
-            </label>
-            <label>
-                <input type="checkbox">
-                Lanche
-            </label>
-            <label>
-                <input type="checkbox">
-                Doces
-            </label>
-            <label>
-                <input type="checkbox">
-                Cachorro quente
-            </label>
-            <label>
-                <input type="checkbox">
-                Tacos
-            </label>
+        <div class="container">
+            <h1>Minhas Tarefas Diárias</h1>
+            <!-- Parte de listagem de tarefas -->
+            <section id="tarefas">
+                <h2>Tarefas</h2>
+                <div class="input-area">
+                    <input type="text" id="novaTarefa" placeholder="Adicionar nova tarefa">
+                    <button onclick="adicionarTarefa()">Adicionar</button>
+                </div>
+                <ul id="listaDeTarefas">
+                    </ul>
+            </section>
         </div>
     </header>
 
