@@ -81,3 +81,19 @@ section {
     padding: 0;
 }
 
+#listadetarefas li, #listadegastos li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    justify-content: space-between;
+}
+
+#listadetarefas li:last-child, #listadegastos li:last-child {
+    border-bottom: none;
+}
+
+#listadetarefas li span {
+    flex-grow: 1;
+    margin-left: 10px;
+}
