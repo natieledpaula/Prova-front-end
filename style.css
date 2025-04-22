@@ -25,10 +25,27 @@ h1, h2 {
     margin-bottom: 25px;
 }
 
+/* Parte da Bordas */
 section {
     margin-bottom: 30px;
     padding: 15px;
     border: 1px solid pink;
     border-radius: 6px;
     background-color: pink;
+}
+
+/* Parte da estilização dos botões de tarefas e gastos */
+.input-area {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.input-area #novatarefa,
+.input-area #descricaogasto {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+    margin-right: 5px;
 }
