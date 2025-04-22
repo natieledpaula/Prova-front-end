@@ -101,7 +101,7 @@ section {
 /* Parte de botões de concluir tarefas e gastos */
 .concluida {
     text-decoration: line-through;
-    color: #888;
+    color: #000000;
 }
 
 .botoes-acao {

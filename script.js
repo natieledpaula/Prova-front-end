@@ -1,12 +1,12 @@
 // Elementos de Tarefas
-const inputTarefa = document.getElementById('novaTarefa');
-const listaTarefas = document.getElementById('listaDeTarefas');
+const inputTarefa = document.getElementById('novatarefa');
+const listaTarefas = document.getElementById('listadetarefas');
 
 // Elementos de Gastos
-const inputDescricaoGasto = document.getElementById('descricaoGasto');
-const inputValorGasto = document.getElementById('valorGasto');
-const listaGastos = document.getElementById('listaDeGastos');
-const totalGastoElemento = document.getElementById('totalGasto');
+const inputDescricaoGasto = document.getElementById('descricaogasto');
+const inputValorGasto = document.getElementById('valorgasto');
+const listaGastos = document.getElementById('listadegastos');
+const totalGastoElemento = document.getElementById('totalgasto');
 let totalGastos = 0;
 
 // --- Funcionalidades de Tarefas ---
