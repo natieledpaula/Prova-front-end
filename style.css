@@ -1,17 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
+/* Parte de estilização */
+body {
     font-family: 'Courier New', Courier, monospace;
-}
-
-header {
-    text-align: center;
-}
-
-.aliment {
+    margin: 20px;
+    background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(255, 0, 149));
     display: flex;
-    flex-direction: column;
-    margin: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.container {
     background-color: aliceblue;
-    border-radius: 20px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.712);
+    width: 90%;
+    max-width: 700px;
 }
